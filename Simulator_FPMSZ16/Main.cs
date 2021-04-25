@@ -68,7 +68,7 @@ namespace Simulator_FPMSZ16
                     if(kvp.Value.serverPort != -1)
                     {
                         kvp.Value.udpClient = new UDP(ip, kvp.Value.serverPort, kvp.Key);
-                        kvp.Value.udpClient.Connect();     //启动线程发送心跳包
+                        kvp.Value.udpClient.StartThread();     //启动线程发送心跳包
                         count++;
                     }
                 }
@@ -83,7 +83,7 @@ namespace Simulator_FPMSZ16
                 {
                     if (kvp.Value.serverPort != -1 && kvp.Value.udpClient != null)
                     {                        
-                        kvp.Value.udpClient.DisConnect();    
+                        kvp.Value.udpClient.Disconnect();    
                     }
                 }
                 _isRunning = false;
@@ -204,7 +204,7 @@ namespace Simulator_FPMSZ16
                 {
                     if(equip != null && equip.manulFlag)
                     {
-                        if (equip.udpClient != null && equip.udpClient.client.Connected)
+                        if (equip.udpClient != null && equip.udpClient._socket.Connected)
                         {
                             Int16 sectornum = Int16.Parse(dgv.Rows[e.RowIndex].Cells[0].Value.ToString());
                             switch (e.ColumnIndex)

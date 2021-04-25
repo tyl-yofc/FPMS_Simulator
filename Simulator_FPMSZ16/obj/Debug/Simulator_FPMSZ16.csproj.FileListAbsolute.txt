@@ -58,7 +58,6 @@ C:\Users\0104734\Desktop\模拟器\Simulator_FPMSZ16_2\Simulator_FPMSZ16_1(2)\Si
 E:\模拟器\FPMS_Z16模拟器最新版\Simulator_FPMSZ16_2\Simulator_FPMSZ16\bin\Debug\Simulator_FPMSZ16.exe.config
 E:\模拟器\FPMS_Z16模拟器最新版\Simulator_FPMSZ16_2\Simulator_FPMSZ16\bin\Debug\Simulator_FPMSZ16.exe
 E:\模拟器\FPMS_Z16模拟器最新版\Simulator_FPMSZ16_2\Simulator_FPMSZ16\bin\Debug\Simulator_FPMSZ16.pdb
-E:\模拟器\FPMS_Z16模拟器最新版\Simulator_FPMSZ16_2\Simulator_FPMSZ16\obj\Debug\Simulator_FPMSZ16.csprojResolveAssemblyReference.cache
 E:\模拟器\FPMS_Z16模拟器最新版\Simulator_FPMSZ16_2\Simulator_FPMSZ16\obj\Debug\Simulator_FPMSZ16.AddChannel.resources
 E:\模拟器\FPMS_Z16模拟器最新版\Simulator_FPMSZ16_2\Simulator_FPMSZ16\obj\Debug\Simulator_FPMSZ16.Form1.resources
 E:\模拟器\FPMS_Z16模拟器最新版\Simulator_FPMSZ16_2\Simulator_FPMSZ16\obj\Debug\Simulator_FPMSZ16.Sectors.resources

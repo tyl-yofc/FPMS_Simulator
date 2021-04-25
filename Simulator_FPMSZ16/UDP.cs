@@ -59,8 +59,8 @@ namespace Simulator_FPMSZ16
                 if (_isConnected)
                     return;
 
-               // IPEndPoint endPoint = new IPEndPoint(_remoteIP, _remotePort);
-               
+                // IPEndPoint endPoint = new IPEndPoint(_remoteIP, _remotePort);
+                _socket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
                 try
                 {
                     _socket.Connect(endPoint);
@@ -177,7 +177,7 @@ namespace Simulator_FPMSZ16
                 {
                     Reconnect();
                 }
-                Thread.Sleep(5000);
+                Thread.Sleep(20000);
             }            
         }
 
